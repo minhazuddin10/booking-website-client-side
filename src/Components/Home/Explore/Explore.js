@@ -45,7 +45,7 @@ const Explore = () => {
                             <p> {item?.description?.slice(0, 100)}....</p>
                             <HashLink to={`servicesDetails/${item.name}`}>
                               <button className="regular_btn">
-                                Booking Now
+                                Buy Now
                               </button>
                             </HashLink>
                           </Card.Body>

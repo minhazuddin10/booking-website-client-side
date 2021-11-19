@@ -41,7 +41,7 @@ const Services = () => {
                         <h5>Price: {item.price}$</h5>
                         <p> {item?.description?.slice(0, 100)}....</p>
                         <HashLink to={`servicesDetails/${item.name}`}>
-                          <button className="regular_btn">Booking Now</button>
+                          <button className="regular_btn">Buy Now</button>
                         </HashLink>
                       </Card.Body>
                     </Card>
