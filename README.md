@@ -1,6 +1,6 @@
 # Clock website
 
-## creator jamil rayhan
+## creator Minhaz Uddin
 
 website link ➡ [Link](https://last-project-49086.web.app/)
 
