@@ -1,0 +1,21 @@
+.addService {
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.addService input,
+textarea {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+}
+.addService textarea {
+  height: 100px;
+  margin: auto;
+}
+
+.AddClock img {
+  width: 100%;
+  height: auto;
+}
