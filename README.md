@@ -8,8 +8,8 @@ website link ➡ [Link](https://last-project-49086.web.app/)
 
 - A Street Clock, or Post Clock as they are also known, is a free-standing, two or four-sided clock, on top of a post. They can be found on main streets, ...
 
--A post clock is really an Outdoor Time Feature Sculpture which adds comfort and importance to a special area. With a header panel and/or a dial, it can easily ...
+- A post clock is really an Outdoor Time Feature Sculpture which adds comfort and importance to a special area. With a header panel and/or a dial, it can easily ...
 
--Street Post Clocks. At Chomko LA, we strive for originality and character in a modern world of metal skyscrapers and lack luster building designs.
+- Street Post Clocks. At Chomko LA, we strive for originality and character in a modern world of metal skyscrapers and lack luster building designs.
 
--We can custom design and create a post clock or street clock to meet your specific requirements based on your consultation or architectural brief.
+- We can custom design and create a post clock or street clock to meet your specific requirements based on your consultation or architectural brief.
