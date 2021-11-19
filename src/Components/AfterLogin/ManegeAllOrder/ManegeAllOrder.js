@@ -4,14 +4,14 @@ import React, { useEffect, useState } from "react";
 const ManegeAllOrder = () => {
   const [allOrders, setAllOrders] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allOrders")
+    fetch("https://infinite-fjord-84665.herokuapp.com/allOrders")
       .then((res) => res.json())
       .then((data) => setAllOrders(data));
   }, []);
   const handleDelete = (id) => {
     const deleteConfirm = window.confirm("Are you sure , you want to delete?");
     if (deleteConfirm) {
-      const url = `http://localhost:5000/myorders/${id}`;
+      const url = `https://infinite-fjord-84665.herokuapp.com/myorders/${id}`;
       console.log(url);
       fetch(url, {
         method: "DELETE",

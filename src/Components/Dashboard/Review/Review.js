@@ -10,7 +10,7 @@ const Review = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("http://localhost:5000/review", data)
+      .post("https://infinite-fjord-84665.herokuapp.com/review", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added successfully");

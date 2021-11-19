@@ -9,13 +9,13 @@ const MyOrder = () => {
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/myorders/${userEmail}`
+      `https://infinite-fjord-84665.herokuapp.com/myorders/${userEmail}`
     ).then((res) => res.json().then((data) => setMyOrders(data)));
   }, [userEmail]);
   const handleDelete = (id) => {
     const deleteConfirm = window.confirm("Are you sure , you want to delete?");
     if (deleteConfirm) {
-      const url = `http://localhost:5000/myorders/${id}`;
+      const url = `https://infinite-fjord-84665.herokuapp.com/myorders/${id}`;
       console.log(url);
       fetch(url, {
         method: "DELETE",

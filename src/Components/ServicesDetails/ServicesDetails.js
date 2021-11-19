@@ -21,7 +21,7 @@ const ServicesDetails = () => {
   const { register, handleSubmit, reset } = useForm();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/orders/${name}`).then(
+    fetch(`https://infinite-fjord-84665.herokuapp.com/orders/${name}`).then(
       (res) => res.json().then((data) => setSelectedItem(data))
     );
   }, [name]);
@@ -32,7 +32,7 @@ const ServicesDetails = () => {
 
   const onSubmit = (data) => {
     data.servicesItem = selectedItem;
-    fetch(`http://localhost:5000/orders`, {
+    fetch(`https://infinite-fjord-84665.herokuapp.com/orders`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -9,7 +9,7 @@ export const AddService = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("http://localhost:5000/services", data)
+      .post("https://infinite-fjord-84665.herokuapp.com/services", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added successfully");

@@ -5,7 +5,7 @@ const useServices = () => {
   console.log(serviceItem)
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://infinite-fjord-84665.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServiceItem(data));
   }, []);
